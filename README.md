@@ -1,11 +1,11 @@
 # Lasso Regression
 - Lasso minimizes the residual sum of squares (RSS) plus a penalty proportional to the absolute values of the coefficients:
 ![WhatsApp Image 2025-08-13 at 09 22 39_117b8750](https://github.com/user-attachments/assets/fd949611-c1e7-4942-aeed-5f3501ed8edc)
-- where λ (or α) controls the strength of the penalty https://www.statisticshowto.com/lasso-regression/?utm_source=chatgpt.com
-- L₁ regularization is key: unlike L₂ (ridge), Lasso can force coefficients exactly to zero, enabling built-in feature selection https://www.statisticshowto.com/lasso-regression/?utm_source=chatgpt.com
+- where λ (or α) controls the strength of the penalty https://www.statisticshowto.com/lasso-regression
+- L₁ regularization is key: unlike L₂ (ridge), Lasso can force coefficients exactly to zero, enabling built-in feature selection https://www.statisticshowto.com/lasso-regression
 ---
 ##### Feature Selection & Sparsity
-- As λ increases, Lasso shrinks more coefficients to zero, resulting in a sparse model that includes only the most predictive features https://www.statisticshowto.com/lasso-regression/?utm_source=chatgpt.com
+- As λ increases, Lasso shrinks more coefficients to zero, resulting in a sparse model that includes only the most predictive features https://www.statisticshowto.com/lasso-regression
 - It handles multicollinearity by typically selecting one variable from a group of correlated ones and discarding the rest.
 ---
 ###### 5 key points about lasso regression. 
