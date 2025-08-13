@@ -3,10 +3,9 @@
 ![WhatsApp Image 2025-08-13 at 09 22 39_117b8750](https://github.com/user-attachments/assets/fd949611-c1e7-4942-aeed-5f3501ed8edc)
 - where λ (or α) controls the strength of the penalty https://www.statisticshowto.com/lasso-regression
 - L₁ regularization is key: unlike L₂ (ridge), Lasso can force coefficients exactly to zero, enabling built-in feature selection https://www.statisticshowto.com/lasso-regression
-<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/cfbe7c05-41cd-4dcf-80fc-a0689e861f2d" />
-<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/afe6c7d8-701f-42eb-93f5-3ec5cfe39dad" />
+<img width="1001" height="1002" alt="image" src="https://github.com/user-attachments/assets/03cb1e9e-5477-4238-b6ba-76ad9a7c1549" />
+<img width="822" height="505" alt="image" src="https://github.com/user-attachments/assets/5867cfc2-7e63-44f3-8389-03385e05f32a" />
 
----
 ##### Feature Selection & Sparsity
 - As λ increases, Lasso shrinks more coefficients to zero, resulting in a sparse model that includes only the most predictive features https://www.statisticshowto.com/lasso-regression
 - It handles multicollinearity by typically selecting one variable from a group of correlated ones and discarding the rest.
@@ -44,11 +43,13 @@ If ∣zj∣≤α, the coefficient is set to 0.
 
 - The test error vs α is typically U-shaped. Use cross-validation to pick α that balances bias–variance.
 - With correlated predictors, Lasso tends to pick one and drop the rest (can make selection unstable across resamples). If thats a problem, consider Elastic Net (L1+L2) to share weight across correlated features.
-<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/884ac7e8-a2b9-4943-a013-8e45ac510c7e" />
+<img width="547" height="432" alt="image" src="https://github.com/user-attachments/assets/e0b80e70-2383-42a5-b887-77d5888f59db" />
+
 
 ##### 4) Effect of regularization on the loss function
 
-<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/bf65ae75-379d-4061-b68f-bf2fa3f07432" />
+<img width="1001" height="1002" alt="image" src="https://github.com/user-attachments/assets/137239d6-f1a3-44f0-9a86-4ac51b10db89" />
+
 
 
 
