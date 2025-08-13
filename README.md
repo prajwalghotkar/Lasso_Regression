@@ -3,7 +3,7 @@
 ![WhatsApp Image 2025-08-13 at 09 22 39_117b8750](https://github.com/user-attachments/assets/fd949611-c1e7-4942-aeed-5f3501ed8edc)
 - where λ (or α) controls the strength of the penalty https://www.statisticshowto.com/lasso-regression
 - L₁ regularization is key: unlike L₂ (ridge), Lasso can force coefficients exactly to zero, enabling built-in feature selection https://www.statisticshowto.com/lasso-regression
-<img width="1001" height="1002" alt="image" src="https://github.com/user-attachments/assets/03cb1e9e-5477-4238-b6ba-76ad9a7c1549" />
+<img width="988" height="505" alt="image" src="https://github.com/user-attachments/assets/3050c0ad-cc1c-4c85-be30-896577ac9eab" />
 <img width="822" height="505" alt="image" src="https://github.com/user-attachments/assets/5867cfc2-7e63-44f3-8389-03385e05f32a" />
 
 ##### Feature Selection & Sparsity
