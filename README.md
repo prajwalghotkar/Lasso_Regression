@@ -3,6 +3,9 @@
 ![WhatsApp Image 2025-08-13 at 09 22 39_117b8750](https://github.com/user-attachments/assets/fd949611-c1e7-4942-aeed-5f3501ed8edc)
 - where λ (or α) controls the strength of the penalty https://www.statisticshowto.com/lasso-regression
 - L₁ regularization is key: unlike L₂ (ridge), Lasso can force coefficients exactly to zero, enabling built-in feature selection https://www.statisticshowto.com/lasso-regression
+<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/cfbe7c05-41cd-4dcf-80fc-a0689e861f2d" />
+<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/afe6c7d8-701f-42eb-93f5-3ec5cfe39dad" />
+
 ---
 ##### Feature Selection & Sparsity
 - As λ increases, Lasso shrinks more coefficients to zero, resulting in a sparse model that includes only the most predictive features https://www.statisticshowto.com/lasso-regression
@@ -22,6 +25,8 @@ minimize 1/2n∥y−Xw∥2+𝛼∥w∥1
 wj<-sign(zj) max(∣zj∣−𝛼,0)
 (where zj is the least-squares/partial-residual estimate for feature j).
 If ∣zj∣≤α, the coefficient is set to 0.
+<img width="1152" height="759" alt="image" src="https://github.com/user-attachments/assets/00d49f27-19d0-4b4c-87a5-4ad36841499e" />
+
 
 ##### 2) Higher coefficients are affected more
 - L₂ (ridge) shrinks proportionally to size -> bigger coefficients shrink more (multiplicative shrinkage).
@@ -29,6 +34,8 @@ If ∣zj∣≤α, the coefficient is set to 0.
 -> Small coefficients are more likely to be killed; large ones shrink but usually stay nonzero.
 
 - So, while the penalty value ∥w∥1 grows with coefficient size (discouraging large magnitudes), the shrinkage rule itself is not “more shrink for bigger coefs” the way ridge is—it’s a constant knock-down per coordinate.
+<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/c11189a1-5e14-4f30-ae0a-d2524bbd8252" />
+
 
 ##### 3) Impact on bias and variance
 - As α increases:
@@ -37,9 +44,11 @@ If ∣zj∣≤α, the coefficient is set to 0.
 
 - The test error vs α is typically U-shaped. Use cross-validation to pick α that balances bias–variance.
 - With correlated predictors, Lasso tends to pick one and drop the rest (can make selection unstable across resamples). If thats a problem, consider Elastic Net (L1+L2) to share weight across correlated features.
+<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/884ac7e8-a2b9-4943-a013-8e45ac510c7e" />
 
 ##### 4) Effect of regularization on the loss function
 
+<img width="1230" height="659" alt="image" src="https://github.com/user-attachments/assets/bf65ae75-379d-4061-b68f-bf2fa3f07432" />
 
 
 
