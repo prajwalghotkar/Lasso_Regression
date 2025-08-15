@@ -51,5 +51,31 @@ If ∣zj∣≤α, the coefficient is set to 0.
 <img width="1001" height="1002" alt="image" src="https://github.com/user-attachments/assets/137239d6-f1a3-44f0-9a86-4ac51b10db89" />
 
 
+# Why does Lasso Regression show sparsity?
 
+##### Sparsity means that when you increase the value of λ (lambda) in Lasso Regression, the coefficients for some input features (columns) become exactly zero.This means Lasso is effectively removing those features from the model (feature selection).
+- If λ is large → many coefficients shrink exactly to 0
+- If coefficient w -> 0, then that feature is not used in prediction.
 
+##### You wrote that in Ridge Regression, even if you increase alpha (λ) a lot, the coefficients get smaller but do not become exactly zero.
+- Ridge only shrinks values toward zero, but never exactly zero.
+- Example: Even at large α, you might see coefficients like 0.05, 0.01, etc., but not 0.
+
+##### In Lasso Regression:
+- Even with a small increase in α, you may start seeing some coefficients become exactly zero.
+- As α increases further, more and more coefficients will become zero.
+- Eventually, only the most important features remain with non-zero coefficients.  
+
+###### The main reason is the L1 penalty used by Lasso:
+
+![WhatsApp Image 2025-08-15 at 19 04 53_a497b489](https://github.com/user-attachments/assets/cbf1376b-0f6b-445e-957a-0a3bd28daa5b)
+
+- The absolute value term ∣wi∣ creates a sharp corner at 0 in the cost function.
+- This "corner" makes it easier for optimization to push coefficients exactly to zero during minimization.
+- This is why Lasso is capable of automatic feature selection.
+
+###### In contrast, Ridge Regression uses L2 penalty:
+
+![WhatsApp Image 2025-08-15 at 19 04 53_9561aa5b](https://github.com/user-attachments/assets/3cc02c92-fae0-48b0-9f2a-2c76cc845c58)
+
+- The squared term is smooth and round at 0, so it shrinks coefficients but does not make them exactly zero.
