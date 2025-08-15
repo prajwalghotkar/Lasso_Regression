@@ -79,3 +79,16 @@ If ∣zj∣≤α, the coefficient is set to 0.
 ![WhatsApp Image 2025-08-15 at 19 04 53_9561aa5b](https://github.com/user-attachments/assets/3cc02c92-fae0-48b0-9f2a-2c76cc845c58)
 
 - The squared term is smooth and round at 0, so it shrinks coefficients but does not make them exactly zero.
+---
+![WhatsApp Image 2025-08-15 at 19 14 52_e834a718](https://github.com/user-attachments/assets/1bb40f13-8406-49fa-97b2-52af152c002b)
+![WhatsApp Image 2025-08-15 at 19 14 53_5f923d27](https://github.com/user-attachments/assets/6db41cb6-5126-43f5-9afa-088ae2059b69)
+![WhatsApp Image 2025-08-15 at 19 14 54_305f9c15](https://github.com/user-attachments/assets/8f6d1f40-9be7-43db-94d1-c32c71328495)
+![WhatsApp Image 2025-08-15 at 19 14 55_dcd28682](https://github.com/user-attachments/assets/20336aeb-760e-40e8-83ee-158418d1cdd3)
+![WhatsApp Image 2025-08-15 at 19 14 56_9efd5834](https://github.com/user-attachments/assets/a1fc44ca-88b8-46f8-a130-c267e161c369)
+![WhatsApp Image 2025-08-15 at 19 14 56_eb3af34f](https://github.com/user-attachments/assets/d49fe345-da3b-4304-b4e3-420baf864bcb)
+
+
+
+
+
+
