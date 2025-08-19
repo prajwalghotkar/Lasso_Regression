@@ -1,4 +1,4 @@
-# Lasso Regression
+# Lasso Regression - https://github.com/prajwalghotkar/Linear-Ridge-and-Lasso-Regression
 - Lasso minimizes the residual sum of squares (RSS) plus a penalty proportional to the absolute values of the coefficients:
 ![WhatsApp Image 2025-08-13 at 09 22 39_117b8750](https://github.com/user-attachments/assets/fd949611-c1e7-4942-aeed-5f3501ed8edc)
 - where λ (or α) controls the strength of the penalty https://www.statisticshowto.com/lasso-regression
@@ -92,6 +92,9 @@ If ∣zj∣≤α, the coefficient is set to 0.
 
 ![WhatsApp Image 2025-08-15 at 19 14 56_eb3af34f](https://github.com/user-attachments/assets/d49fe345-da3b-4304-b4e3-420baf864bcb)
 
+---
+# ElasticNet Regression:
+![WhatsApp Image 2025-08-19 at 11 28 28_021727f3](https://github.com/user-attachments/assets/793d906f-6a53-4b86-81a7-e86cc8b49563)
 
 
 
